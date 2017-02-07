@@ -3,8 +3,6 @@ body{
     background-repeat: repeat;
     margin: auto;
     margin-top: 0px;
-	/*width: 960px;
-	box-sizing: border-box;*/
 }
 a,p, form, textarea, span, input{
 	text-decoration: none;
@@ -31,6 +29,7 @@ h1{
 	color: #fff;
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 1.7em;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 25px;
@@ -44,6 +43,8 @@ h2{
 	font-size: 2em;
 	padding-bottom: 25px;
 	border-bottom: 3px solid #dddddd;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 h3{
 	color: #4aaaa5;
@@ -51,6 +52,8 @@ h3{
 	text-align: center;
 	padding-bottom: 25px;
 	border-bottom: 2px solid #dddddd;
+	margin-bottom: 25px;
+	margin-top: 10px;
 
 }
 nav{
@@ -75,7 +78,11 @@ nav{
 	padding-left: 30px;
 	padding-right: 30px;
 	float: left;
+	padding-bottom: 25px;
 	margin-bottom: 100px;
+}
+#main p{
+	margin-bottom: 15px;
 }
 #connect{
 	display: inline-block;
@@ -107,6 +114,7 @@ footer{
 	bottom: -30px;
 }
 footer p{
+	padding-top: 15px;
 	color: #ffffff;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: lighter;
@@ -155,5 +163,5 @@ button{
 	box-sizing: border-box;
 	border: none;
 	position: relative;
-    bottom: 90px;
+    bottom: 75px;
 }
